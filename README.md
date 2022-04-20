@@ -11,10 +11,10 @@
 
 ## Assumptions
 
-1. The buffer row of one is the same seat in rows above and below the current reseravtions
-2. Parties within one reservation would want to sit together.
-3. People would prefer seats in the back.
-4. Parties within same group of people would not require buffer.
+* The buffer row of one is the same seat in rows above and below the current reseravtions
+* Parties within one reservation would want to sit together.
+* People would prefer seats in the back.
+* Parties within same group of people would not require buffer.
 
 ## Execution
 Download source code from Git repository and unzip the file.
@@ -32,8 +32,8 @@ Run the following command to start the application
 
 
 ## Optimizations
-1. Incorportating a better view with sitting together as the first priority, possibly BFS to go through all options. Very time consuming though.
-2. Run time, for checking for consecutive seats for the party was a slow process in my algorithm this could be speed up by using a bit more space and putting pointers to the first open seat and how many consecutive seats are available
-3. If there is unsold seats could reconfiguring so that better viewing seat ( the middle) and larger safety buffers could be applied
-4. Unit testing for each functions
-5. Assign people with middle seats if possible.
+* Incorportating a better view with sitting together as the first priority, possibly BFS to go through all options. Very time consuming though.
+* Run time, for checking for consecutive seats for the party was a slow process in my algorithm this could be speed up by using a bit more space and putting pointers to the first open seat and how many consecutive seats are available
+* If there is unsold seats could reconfiguring so that better viewing seat ( the middle) and larger safety buffers could be applied
+* Unit testing for each functions
+* Assign people with middle seats if possible.
